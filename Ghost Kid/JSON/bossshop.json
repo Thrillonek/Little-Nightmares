@@ -1,0 +1,16 @@
+{
+  "armor": [
+    { "level": 1, "resist": 50, "price": 50 },
+    { "level": 2, "resist": 100, "price": 100 },
+    { "level": 3, "resist": 250, "price": 250 },
+    { "level": 4, "resist": 500, "price": 500 },
+    { "level": 5, "resist": 1000, "price": 1000 }
+  ],
+  "weapons": [
+    { "level": 1, "damage": 50, "price": 50 },
+    { "level": 2, "damage": 100, "price": 100 },
+    { "level": 3, "damage": 250, "price": 250 },
+    { "level": 4, "damage": 500, "price": 500 },
+    { "level": 5, "damage": 1000, "price": 1000 }
+  ]
+}

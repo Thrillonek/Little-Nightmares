@@ -1,0 +1,13 @@
+{
+  "pages": {
+    "1": {
+      "items": [
+        {
+        "name": "test",
+        "cost": 100,
+        "desc": "Thrillonkovo testovací item"
+        }
+      ]
+    },
+  }
+}
