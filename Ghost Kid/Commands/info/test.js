@@ -6,9 +6,8 @@ module.exports = {
   async execute(message, args, cmd, client, discord, db){
     if(message.author.id != "569599819014733856") return;
 
-    /*const draw = canva.getContext("2d");
-    draw.fillRect(0,0,100,100)
-
-    message.channel.send({ files: [new discord.MessageAttachment(draw, "test.png")] })*/
+    message.channel.messages.fetch({ limit: 1 }).then(msg => {
+      msg.react("🎨");
+    })
   }
 }
