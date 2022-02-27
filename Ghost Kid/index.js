@@ -13,10 +13,6 @@ client.cooldown = new discord.Collection();
 ["command_handler", "event_handler", "slash_handler"].forEach(handler =>{
   require(`./handlers/${handler}`)(client, discord)
 });
-
-const keepAlive = require('./server');
-keepAlive();
-
 try {
   client.login(process.env.TOKEN);
 } catch {
