@@ -2,7 +2,7 @@ module.exports = {
     name: "question",
     execute(message, args, cmd, client, discord, economy){
 
-        /*var embed = new discord.MessageEmbed()
+        var embed = new discord.MessageEmbed()
         .setTitle("Otázka")
         .setDescription("Je Thrillonek dobrý developer?")
 
@@ -13,6 +13,6 @@ module.exports = {
             new discord.MessageButton().setLabel("Možná")
         ])
 
-        message.reply({ embeds: [embed], components: [row] })*/
+        message.reply({ embeds: [embed], components: [row] })
     }
 }
