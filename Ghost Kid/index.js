@@ -13,8 +13,6 @@ client.cooldown = new discord.Collection();
 ["command_handler", "event_handler", "slash_handler"].forEach(handler =>{
   require(`./handlers/${handler}`)(client, discord)
 });
-try {
-  client.login(process.env.TOKEN);
-} catch {
-  console.error();
-}
+
+
+client.login(process.env.TOKEN);
