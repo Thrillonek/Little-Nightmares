@@ -12,7 +12,7 @@
     "@canvacord/assets": "^2.1.0",
     "@fontsource/open-sans": "^4.5.2",
     "canvacord": "^5.2.3",
-    "canvas": "^2.8.0",
+    "canvas": "^2.9.0",
     "discord-reply": "^0.1.2",
     "discord.js": "^13.1.0",
     "dotenv": "^16.0.0",
