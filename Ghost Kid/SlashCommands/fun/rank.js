@@ -102,7 +102,6 @@ module.exports = {
         return (num / si[index].v).toFixed(2).replace(/\.0+$|(\.[0-9]*[1-9])0+$/, "$1") + si[index].s;
       }
       
-      Canvas.registerFont("./fonts/arial.ttf", { family: "Arial" })
       const canvas = Canvas.createCanvas(800, 250);
       const ctx = canvas.getContext('2d');
 

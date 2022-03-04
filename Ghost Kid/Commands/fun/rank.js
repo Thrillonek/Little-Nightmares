@@ -91,7 +91,6 @@ module.exports = {
 
       const member = message.mentions.members.last() || message.member;
       
-      Canvas.registerFont("./fonts/arial.ttf", { family: "Arial" })
       const canvas = Canvas.createCanvas(800, 250);
       const ctx = canvas.getContext('2d');
 
