@@ -1,5 +1,4 @@
 const Canvas = require("canvas");
-const assets = require("@canvacord/assets");
 
 module.exports = {
   name: 'rank',
