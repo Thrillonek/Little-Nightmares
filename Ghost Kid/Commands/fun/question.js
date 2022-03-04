@@ -12,5 +12,7 @@ module.exports = {
             new discord.MessageButton().setLabel("Ne"),
             new discord.MessageButton().setLabel("Možná")
         ])
+
+        message.reply({ embeds: [embed], components: [row] })
     }
 }
